@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Todo } from '../todo';
-
+import { TODO } from '../sample-tasks';
 @Component({
   selector: 'app-todo-items',
   templateUrl: './todo-items.component.html',
@@ -8,6 +8,8 @@ import { Todo } from '../todo';
 })
 export class TodoItemsComponent implements OnInit {
   todo: Todo = {
+
+
     priority: 1,
     name: 'Laundry'
   }

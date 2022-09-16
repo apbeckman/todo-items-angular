@@ -1,3 +1,5 @@
-<h2>{{todo.name}}</h2>
-<div><span>Task: </span>{{todo.name}}</div>
+<div>
+  <label for="name">Task: </label>
+  <input id="name" [(ngModel)]="todo.name" placeholder="name">
+</div>
 <div><span>Priority: </span>{{todo.priority}}</div>
