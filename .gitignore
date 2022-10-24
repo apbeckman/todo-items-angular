@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+.vs/todo-items-angular/FileContentIndex/read.lock
+.vs/slnx.sqlite
+.vs/todo-items-angular/FileContentIndex/f612d40f-c172-4d64-9784-87f5a5e96ea7.vsidx
